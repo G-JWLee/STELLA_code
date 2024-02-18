@@ -3,7 +3,7 @@
 ### **STELLA: Continual Audio-Video Pre-training with Spatio-Temporal Localized Alignment**  
 * Authors: Jaewoo Lee*, [Jaehong Yoon*](https://jaehong31.github.io/), [Wonjae Kim](https://wonjae.kim/), [Yunji Kim](https://github.com/YunjiKim), [Sung Ju Hwang](http://www.sungjuhwang.com/)
 * [Paper](https://arxiv.org/abs/2310.08204)
-* [Project Page](https://g-jwlee.github.io/STELLA_project/)
+* [Project Page](https://cl-stella.github.io/)
 
 ## Introduction
 
