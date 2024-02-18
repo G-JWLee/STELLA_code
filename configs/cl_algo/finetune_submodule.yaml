@@ -1,0 +1,5 @@
+name: 'Finetune_submodule'
+args:
+  matching_loss_weight: 1.0
+  avm_pretrain_path: ""
+  embedding_dim: ${backbone.args.encoder_embed_dim}

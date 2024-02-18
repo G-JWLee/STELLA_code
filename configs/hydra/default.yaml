@@ -1,0 +1,5 @@
+run:
+  dir: ${environment.data_dir}/outputs/${logging.name}/${logging.name}${logging.suffix}
+sweep:
+  dir: ${environment.data_dir}/outputs/${logging.name}/${logging.name}${logging.suffix}
+  subdir: ID${hydra.job.id}

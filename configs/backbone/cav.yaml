@@ -1,0 +1,25 @@
+arch: 'CAV'
+args:
+  img_size: ${data_augm.video_data.args.input_size}
+  patch_size: 16
+  audio_patch_size: [16,16]
+  encoder_in_chans: 3
+  encoder_embed_dim: 768
+  hidden_size: 768
+  encoder_depth: 12
+  encoder_num_heads: 12
+  decoder_embed_dim: 512
+  decoder_hidden_size: 512
+  decoder_depth: 8
+  decoder_num_heads: 16
+  mlp_ratio: 4
+  drop_rate: 0.
+  num_frames: ${data.args.num_frames}
+  mask_ratio_v: 0.8
+  mask_ratio_a: 0.8
+  loss_names: ${criterion.args.loss_names}
+  use_audio: ${data.args.use_audio}
+  mid_fusion_depth: 10
+  frequency_size: ${data_augm.audio_data.args.num_mels}
+  audio_size: ${data_augm.audio_data.args.audio_size}
+

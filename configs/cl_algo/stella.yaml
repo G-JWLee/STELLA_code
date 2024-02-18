@@ -1,0 +1,13 @@
+name: 'STELLA'
+args:
+  batch_size: ${optim.per_gpu_batchsize}
+  embedding_dim: ${backbone.args.encoder_embed_dim}
+  avm_pretrain_path: ""
+  matching_loss_weight: 1.0
+  core_video_ratio: 0.5
+  core_audio_ratio: 0.5
+  num_core_audio_times: 4
+  alpha: 0.5
+  att_temperature: 0.4
+  mem_args:
+    memory_size: 2000

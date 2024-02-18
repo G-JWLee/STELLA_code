@@ -1,0 +1,22 @@
+name: VGGSoundPretrainDataset
+target_task: []
+skip_task: []
+splits:
+  train: train
+  eval: eval
+args:
+  home_path: ${oc.env:home_data_path}
+  base_path: ${oc.env:home_data_path}
+  meta_path: ${data.args.home_path}/vggsound/data
+  use_audio: True
+  num_frames: 4
+  video_duration: 4.0
+  audio_duration: 10.0
+  sample_type: ""
+  decode_audio: True
+  decode_video: True
+  label_smooth: 0
+  debug: False
+  mats: False
+retrieval:
+  name: VGGSoundRetrievalDataset

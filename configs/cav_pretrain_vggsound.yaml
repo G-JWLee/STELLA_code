@@ -1,0 +1,11 @@
+defaults:
+  - data: vggsound_pretrain
+  - data_augm: cav_augm
+  - backbone: cav
+  - criterion: fa_mae_cont
+  - optim: adam
+  - train_algo: pretrain
+  - cl_algo: finetune
+  - environment: default
+  - hydra: default
+  - logging: default

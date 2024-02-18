@@ -1,0 +1,5 @@
+arch: 'Transformer'
+args:
+  loss_names: ["vacls"]
+  load_local_path: ""
+  init_classifier: False

@@ -1,0 +1,18 @@
+method: 'AdamW'
+args:
+  lr: 1e-5
+  betas: [0.9,0.98]
+  weight_decay: 0.001
+avm_wd_multi: 1.0
+epochs: 100
+batch_size: 4096
+per_gpu_batchsize: 1
+layer_decay: .0
+use_grad_clip: False
+clip_grad: .0
+use_lr_scheduler: True
+lr_scheduler: WarmupCosineSchedule
+lr_scheduler_args:
+  final_lr_ratio: .0
+  epochs: ${optim.epochs}
+  warmup_epochs: 0

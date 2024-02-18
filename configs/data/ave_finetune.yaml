@@ -1,0 +1,16 @@
+name: AVEDataset
+target_task: ['All']
+skip_task: []
+splits:
+  train: train
+  eval: eval
+  test: test
+args:
+  home_path: ${oc.env:home_data_path}
+  base_path: ${oc.env:home_data_path}
+  meta_path: ${data.args.home_path}/AVE_Dataset/data
+  use_audio: True
+  num_frames: 4
+  audio_duration: 1.0
+  debug: False
+measure: ave

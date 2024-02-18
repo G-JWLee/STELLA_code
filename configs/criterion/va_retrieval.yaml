@@ -1,0 +1,7 @@
+arch: 'Transformer'
+args:
+  loss_names: ["embedding","retrieval"]
+  load_local_path: ""
+  init_classifier: False
+  mae_loss_weight: 0.
+  contrast_loss_weight: 0.

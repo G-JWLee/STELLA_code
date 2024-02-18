@@ -1,0 +1,9 @@
+arch: 'Transformer'
+args:
+  loss_names: ["vam"]
+  load_local_path: ""
+  init_classifier: False
+  norm_pix_loss: False
+  mae_loss_weight: 0.
+  contrast_loss_weight: 0.
+  get_va_recall_metric: False

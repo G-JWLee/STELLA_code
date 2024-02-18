@@ -1,0 +1,11 @@
+name: 'ESMER'
+args:
+  reg_weight: 0.15
+  ema_model_alpha: 0.999
+  ema_model_update_freq: 0.2
+  loss_margin: 2.5
+  loss_alpha: 0.99
+  std_margin: 1
+  batch_size: ${optim.per_gpu_batchsize}
+  mem_args:
+    memory_size: 2000

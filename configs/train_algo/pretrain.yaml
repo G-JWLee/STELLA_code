@@ -1,0 +1,4 @@
+main_worker: 'run_task_free'
+trainer: 'pretrain'
+test_only: False
+retrieval: False

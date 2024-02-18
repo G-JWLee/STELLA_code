@@ -1,0 +1,10 @@
+arch: 'Transformer'
+args:
+  loss_names: ["mae_audio", "mae_frame", "contrastive"]
+  load_local_path: ""
+  init_classifier: False
+  norm_pix_loss: False
+  mae_loss_weight: 1.0
+  contrast_loss_weight: 0.1
+  get_va_recall_metric: False
+  tau: 0.05

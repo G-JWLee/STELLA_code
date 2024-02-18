@@ -1,0 +1,8 @@
+main_worker: 'run_task_free'
+trainer: 'finetune'
+test_only: False
+test_args:
+  wa: False
+  wa_start: 0
+  wa_end: 0
+retrieval: False
