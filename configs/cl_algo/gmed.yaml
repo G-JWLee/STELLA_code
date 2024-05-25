@@ -1,8 +1,0 @@
-name: 'GMED'
-args:
-  batch_size: ${optim.per_gpu_batchsize}
-  edit_decay: 1.0
-  grad_stride: 0.1
-  reg_strength: 0.05
-  mem_args:
-    memory_size: 2000

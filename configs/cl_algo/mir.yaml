@@ -1,6 +1,0 @@
-name: 'MIR'
-args:
-  batch_size: ${optim.per_gpu_batchsize}
-  search_factor: 5
-  mem_args:
-    memory_size: 2000

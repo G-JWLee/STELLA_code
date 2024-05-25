@@ -1,6 +1,0 @@
-name: 'Der_pp'
-args:
-  alpha: 0.5
-  batch_size: ${optim.per_gpu_batchsize}
-  mem_args:
-    memory_size: 2000

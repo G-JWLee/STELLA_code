@@ -1,5 +1,0 @@
-name: 'ER'
-args:
-  batch_size: ${optim.per_gpu_batchsize}
-  mem_args:
-    memory_size: 2000

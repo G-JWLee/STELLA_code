@@ -2,7 +2,7 @@ defaults:
   - data: vggsound_pretrain
   - data_augm: cav_augm
   - backbone: cav
-  - criterion: va_vam
+  - criterion: va_avm
   - optim: adam
   - train_algo: pretrain
   - cl_algo: finetune_submodule
