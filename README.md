@@ -76,6 +76,12 @@ Place the downloaded files in /dataset_path/vggsound/data and /dataset_path/Audi
 1. Download the datset through "https://sites.google.com/view/audiovisualresearch"
 2. Run ```python extract_audio.py``` & ```python extract_video_freame.py``` to extract audio & video from the clips.
 
+
+### AVS
+
+1. Download the datset through "https://github.com/OpenNLPLab/AVSBench"
+2. Run ```python extract_audio.py``` & ```python extract_video_freame.py``` to extract audio & video from the clips.
+
 ## Training
 
 ### Initial weights
@@ -100,12 +106,11 @@ bash commands/cav_finetune_{downstreamtask}_base.sh
 
 ## Bibtex
 ```
-@misc{lee2023lifelong,
+@article{lee2023lifelong,
       title={STELLA: Continual Audio-Video Pre-training with Spatio-Temporal Localized Alignment},
       author={Jaewoo Lee and Jaehong Yoon and Wonjae Kim and Yunji Kim and Sung Ju Hwang},
+      journal={arXiv preprint arXiv:2310.08204},
       year={2024},
-      eprint={2310.08204},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      url={https://doi.org/10.48550/arXiv.2310.08204},
 }
 ```
