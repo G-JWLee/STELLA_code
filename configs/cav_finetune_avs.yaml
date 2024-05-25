@@ -1,0 +1,11 @@
+defaults:
+  - data: avs_finetune
+  - data_augm: ave_augm
+  - backbone: cav
+  - criterion: avs
+  - optim: adam
+  - train_algo: finetune
+  - cl_algo: finetune_segment
+  - environment: default
+  - hydra: default
+  - logging: default

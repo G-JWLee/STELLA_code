@@ -1,0 +1,18 @@
+name: AVSFinetuneDataset
+target_task: ['avs']
+skip_task: []
+splits:
+  train: train
+  test: test
+  eval: test
+args:
+  home_path: ${oc.env:home_data_path}
+  base_path: ${oc.env:home_data_path}/avsbench_data/Single-source/s4_data
+  meta_path: ${data.args.home_path}/avsbench_data/Single-source
+  use_audio: True
+  num_frames: 4
+  video_duration: 4.0
+  audio_duration: 10.0
+  decode_audio: True
+  decode_video: True
+  debug: False

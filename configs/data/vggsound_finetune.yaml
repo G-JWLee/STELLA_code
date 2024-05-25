@@ -1,0 +1,19 @@
+name: VGGSoundFinetuneDataset
+target_task: []
+skip_task: []
+splits:
+  train: train
+  eval: eval
+  test: test
+args:
+  home_path: ${oc.env:home_data_path}
+  base_path: ${oc.env:home_data_path}
+  meta_path: ${data.args.home_path}/vggsound/data
+  use_audio: True
+  num_frames: 4
+  video_duration: 4.0
+  audio_duration: 10.0
+  sample_type: ""
+  label_smooth: 0
+  debug: False
+measure: acc
