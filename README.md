@@ -82,6 +82,7 @@ Place the downloaded files in /dataset_path/vggsound/data and /dataset_path/Audi
 1. Download the datset through "https://github.com/OpenNLPLab/AVSBench"
 2. Run ```python extract_audio.py``` & ```python extract_video_freame.py``` to extract audio & video from the clips.
 
+
 ## Training
 
 ### Initial weights
