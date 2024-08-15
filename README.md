@@ -9,7 +9,7 @@
 
 In real-world scenarios, the model should handle a dynamic shift of audiovisual data distribution when training on videos, as the agent's surroundings can continuously change over time.
 
-We propose STELLA (Spatio-Temporal Localized Aignment), which captures the complex relationships between the audio and video modalities during training on a sequence of pre-training tasks while alleviating the forgetting of learned audiovisual correlations.
+We propose STELLA (Spatio-Temporal Localized Alignment), which captures the complex relationships between the audio and video modalities during training on a sequence of pre-training tasks while alleviating the forgetting of learned audiovisual correlations.
 
 <center><img src="assets/concept_figure_16x9.png" alt="Teaser" width="100%"></center>
 <p>
