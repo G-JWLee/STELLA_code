@@ -107,11 +107,10 @@ bash commands/cav_finetune_{downstreamtask}_base.sh
 
 ## Bibtex
 ```
-@article{lee2023lifelong,
+@inproceedings{lee2024stella,
       title={STELLA: Continual Audio-Video Pre-training with Spatio-Temporal Localized Alignment},
       author={Jaewoo Lee and Jaehong Yoon and Wonjae Kim and Yunji Kim and Sung Ju Hwang},
-      journal={arXiv preprint arXiv:2310.08204},
       year={2024},
-      url={https://doi.org/10.48550/arXiv.2310.08204},
+      booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
 }
 ```
